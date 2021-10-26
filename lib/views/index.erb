@@ -4,5 +4,12 @@
   </head>
   <body>
     <h1>Mon super site de gossip, depuis le dossier views !</h1>
-  </body>
+    <a href="/gossips/new/">Ajouter un potin</a>
+    <a href= "gossips/<%= index%>"> 
+        <%= gossip.author %>
+        <%= gossip.content %>
+       </a>
+    <% end %>
+
+      </body>
 </html>
